@@ -78,3 +78,152 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+
+/* Gmail Navbar Styles */
+.gmail-navbar {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gmail-logo {
+    height: 32px;
+}
+
+.gmail-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    padding: 8px 12px;
+    border-radius: 24px;
+    width: 600px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+i {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+/* BBC */
+.bbc-navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0 16px;
+    color: white;
+}
+
+.bbc-logo {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.bbc-logo p {
+    padding: 0 4px;
+    margin: 0;
+}
+
+.navbar-center {
+    margin-left: 20px;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.user-section i {
+    font-size: 18px;
+}
+
+.navbar-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-item i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    width: 120px;
+    border: none;
+}
+
+.search-btn {
+    background: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
