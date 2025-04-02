@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Menu</title>
+    <title>Restaurant Menu & Reservation</title>
     <link rel="stylesheet" href="hotel.css">
 </head>
 <body>
-    <h1>Restaurent Menu & Reservation Table</h1>
-    <h3>Restaurent Menu</h3>
-    <div class="menu">
-        <div class="fruits"></div>
-        <ul class="faal">
-            <h4>Fruits</h4>
-            <li>Mango</li>
-            <li>Banana</li>
-            <li>Pineapple</li>
-            <li>Watermelon</li>
-         </ul>
-        </div>
-    </div>
+
+    <h1>Restaurant Menu</h1>
+    <ul class="menu">
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>Salad</li>
+    </ul>
+
+    <h2>Reservation Table</h2>
+    <table class="reservation">
+        <thead>
+            <tr>
+                <th>Table No.</th>
+                <th>Name</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td class="booked">Booked</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Available</td>
+                <td class="available">Available</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
