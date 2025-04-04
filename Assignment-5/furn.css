@@ -9,6 +9,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: sticky;
+    top:0;
     background-color: white;
     border-bottom: 1px solid #ccc;
 }
@@ -47,6 +49,50 @@ body {
     color: black;
     font-weight: 500;
 }
-.footer{
-    
+/* Hero Section */
+.hero-section{
+    background-image: url(Assets/hall.jpeg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.heading{
+    width: 35%;
+    padding: 70px 20px;
+}
+.heading h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.org-button{
+    background-color: orange;
+    color: white;
+    font-weight: 300;
+    padding: 6px;
+    border: none;
+    text-decoration: none;
+}
+.aqua-button{
+    background-color: aqua;
+    color: white;
+    font-weight: 300;
+    padding: 6px;
+    border: none;
+    text-decoration: none;
+}
+
+/* Chairs Section */
+.chairs-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chair{
+    height: 400px;
+    border: 2px solid black;
+    width: 25%;
 }
