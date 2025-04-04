@@ -6,49 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My FURNITURE</title>
     <link rel="stylesheet" href="furn.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-logo">
-            <img src="Assets/logo.png" alt="#">
+            <img src="Assets/logo.png" alt="Logo">
         </div>
-        <div class="navbar-center">
-            <ul class="navlist">
-                <li class="navlink"><a href="#">Home</a></li>
-                <li class="navlink"><a href="#">About</a></li>
-                <li class="navlink"><a href="#">Furniture</a></li>
-                <li class="navlink"><a href="#">Blog</a></li>
-                <li class="navlink"><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="navbar-right">
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Furniture</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="nav-icons">
             <a href="#">Login</a>
             <i class="fa-solid fa-user"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </nav>
+
     <!-- Hero Section -->
-    <section>
-    <div class="hero-section">
-        <div class="heading"><h2>FOR ALL YOUR FURNITURE NEEDS</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus itaque sunt consequatur, ipsa nemo ea.</p</div>
-    <br>
-    <button class="org-button"><a href="#">Contact Us</a></button>
-    <button class="aqua-button"><a href="#">Us</a></button>
-     </div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>FOR ALL YOUR <br> FURNITURE NEEDS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, 
+               illo maxime voluptatem a itaque suscipit.</p>
+            <div class="hero-buttons">
+                <button class="btn contact">Contact Us</button>
+                <button class="btn about">About Us</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Assets/hall.jpeg" alt="Furniture Illustration">
+        </div>
     </section>
-    <br>
-     <!-- Chairs Section -->
-      <section>
-      <h3>Our Furniture</h3>
-      <p>which dont even slightly look possible Lorem ipsum dolor sit amet.</p>
-     <div class="chairs-section">
-        <div class="chair1 chair">chair 1</div>
-        <div class="chair2 chair">chair 2</div>
-        <div class="chair3 chair">chair 3</div>
-     </div>
+    
+
+    <!-- Chairs Section -->
+    <section class="chairs">
+        <h3>Our Furniture</h3>
+        <p>Explore our latest collection of premium furniture.</p>
+        <div class="chairs-container">
+            <div class="chair">
+                <img src="Assets/chair1.jpg" alt="BigBOSS Chair">
+                <h4>The BigBOSS Chair</h4>
+                <p class="price">₹34,560</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="chair">
+                <img src="Assets/chair2.jpeg" alt="Chill Chair">
+                <h4>The Chill Chair</h4>
+                <p class="price">₹8,000</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="chair">
+                <img src="Assets/chair3.jpg" alt="Work Chair">
+                <h4>The Work Chair</h4>
+                <p class="price">₹14,000</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
     </section>
+
+         <!-- Blogs Section -->
+    <section class="blogs">
+        <h3>Our Latest Blogs</h3>
+        <p>Explore design inspirations and furniture trends.</p>
+        <div class="blogs-container">
+            <div class="blog">
+                <img src="Assets/blog1.jpg" alt="Blog 1">
+                <h4>How to Choose the Right Furniture</h4>
+                <p>Discover tips on selecting furniture that suits your style and needs.</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="blog">
+                <img src="Assets/blog2.jpg" alt="Blog 2">
+                <h4>Modern Living Room Ideas</h4>
+                <p>Upgrade your living space with these modern furniture trends.</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="blog">
+                <img src="Assets/blog3.jpeg" alt="Blog 3">
+                <h4>Eco-Friendly Furniture Options</h4>
+                <p>Explore sustainable furniture choices for a greener home.</p>
+                <button class="read-more">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Call : +01 12345678990</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email : mail@domain.com</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location</p>
+                </div>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+    
+                <div class="instagram-feeds">
+                    <h3>INSTAGRAM FEEDS</h3>
+                    <div class="feed-images">
+                        <img src="Assets/chair1.jpg" alt="chair">
+                        <img src="Assets/chair2.jpeg" alt="desk">
+                        <img src="Assets/chair3.jpg" alt="chair">
+                        <img src="Assets/blog1.jpg" alt="table">
+                        <img src="Assets/blog2.jpg" alt="stool">
+                        <img src="Assets/blog3.jpeg" alt="armchair">
+                    </div>
+                </div>
+    
+                <div class="newsletter">
+                    <h3>SIGN UP TO OUR NEWSLETTER</h3>
+                    <input type="email" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <p class="footer-bottom">&copy; 2025 All Rights Reserved. By HTML Design</p>
+    </footer>
+    
 </body>
+
 </html>
