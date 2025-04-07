@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+.navbar p{
+    padding: 0 2px;
+    margin: 0;
+}
+.nav-left{
+    margin-left: 20px;
+    display: flex;
+    gap: 7px;
+}
+.nav-right{
+    margin-right: 20px;
+    display: flex;
+    gap: 7px;
+}
+.go{
+    background-color: white;
+    color: orange;
+    border-radius: 70%;
+}
+/* For Narrow Screens */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .nav-right {
+      margin-top: 10px;
+    }
+  }
+  
