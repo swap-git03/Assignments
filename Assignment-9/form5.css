@@ -1,20 +1,108 @@
-*{
-    box-sizing: border-box;
+/* Reset and base styles */
+* {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-body{
-    background-color: white;
-}
-.outer-div{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Outer pink gradient background */
+  body, .outer-div {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-.pink-box{
-    background-color: rgb(214, 22, 201);
-    padding: 100px;
-}
+    background-color: white;
+  }
+  
+  /* White login box */
+  .pink-box {
+    background: pink;
+    padding: 40px 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading */
+  .pink-box h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  /* Button group (Login/Signup) */
+  .btns {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .btns button {
+    flex: 1;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .btns .active {
+    background-color: rgb(212, 25, 209);
+    color: white;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  /* Login button */
+  .Login {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: rgb(212, 25, 209);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .Login:hover {
+    opacity: 0.9;
+  }
+  
+  /* Forgot password link */
+  .form a {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: #d63384;
+    text-decoration: none;
+  }
+  
+  /* Signup prompt */
+  .member {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .member a {
+    color: #d63384;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
