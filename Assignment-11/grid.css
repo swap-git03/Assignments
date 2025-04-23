@@ -1,3 +1,55 @@
 *{
-    background-image: linear-gradient(to right, red, green);
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+     margin: 50px;
+}
+.assign1{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+.boxes{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: rgb(211, 140, 19);
+}
+.box3{
+    background-color: rgb(165, 203, 36);
+}
+.box4{
+    background-color: rgb(63, 210, 22);
+}
+.box5{
+    background-color: rgb(35, 241, 244);
+}
+.box6{
+    background-color: rgb(9, 74, 138);
+}
+.box7{
+    background-color: rgb(245, 25, 201);
+}
+.box8{
+    background-color: rgb(60, 0, 255);
+}
+.box9{
+    background-color: rgb(183, 0, 255);
+}
+
+/* Assign2 */
+.assign2{
+    display: grid;
+    
 }
