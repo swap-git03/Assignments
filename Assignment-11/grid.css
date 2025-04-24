@@ -22,8 +22,32 @@ body {
     justify-content: center;
     margin-bottom: 50px;
 }
-.grid-3x3 .box {
-    background-color: #4caf50;
+
+.grid-3x3 .box1{
+    background-color: #FF69B4;
+}
+.grid-3x3 .box2{
+    background-color: #34A85A;
+}
+.grid-3x3 .box3{
+    background-color: #6495ED;
+}
+
+.grid-3x3 .box4{
+    background-color: #FFC107;
+}
+.grid-3x3 .box5{
+    background-color: #8E44AD;
+}.grid-3x3 .box6{
+    background-color: #2ECC71;
+}
+.grid-3x3 .box7{
+    background-color: #E74C3C;
+}
+.grid-3x3 .box8{
+    background-color: #1ABC9C;
+}.grid-3x3 .box9{
+    background-color: #9B59B6;
 }
 
 /* Task 2: Named Grid Areas */
