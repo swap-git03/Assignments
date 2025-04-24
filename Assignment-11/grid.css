@@ -1,55 +1,100 @@
-*{
-    background-color: aqua;
+/* General Layout */
+body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
-h1{
-    text-align: center;
-     margin: 50px;
+
+.container {
+    width: 90%;
+    max-width: 1200px;
 }
-.assign1{
+
+/* Task 1: 3x3 Grid */
+.grid-3x3 {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
-    position: absolute;
-    top: 20%;
-    left: 42%;
+    justify-content: center;
+    margin-bottom: 50px;
 }
-.boxes{
-    height: 100%;
-    width: 100%;
-}
-.box1{
-    background-color: red;
-}
-.box2{
-    background-color: rgb(211, 140, 19);
-}
-.box3{
-    background-color: rgb(165, 203, 36);
-}
-.box4{
-    background-color: rgb(63, 210, 22);
-}
-.box5{
-    background-color: rgb(35, 241, 244);
-}
-.box6{
-    background-color: rgb(9, 74, 138);
-}
-.box7{
-    background-color: rgb(245, 25, 201);
-}
-.box8{
-    background-color: rgb(60, 0, 255);
-}
-.box9{
-    background-color: rgb(183, 0, 255);
+.grid-3x3 .box {
+    background-color: #4caf50;
 }
 
-/* Assign2 */
-.assign2{
+/* Task 2: Named Grid Areas */
+.named-layout {
     display: grid;
-    
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "section footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.named-layout .header { grid-area: header; background: #2196f3; padding: 10px; color: white; }
+.named-layout .sidebar { grid-area: sidebar; background: #ff9800; padding: 10px; color: white; }
+.named-layout .main-content { grid-area: main; background: #4caf50; padding: 10px; color: white; }
+.named-layout .section { grid-area: section; background: #9c27b0; padding: 10px; color: white; }
+.named-layout .footer { grid-area: footer; background: #607d8b; padding: 10px; color: white; }
+
+/* Task 3: Responsive Image Gallery */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.image-gallery img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Task 4: Dashboard Layout */
+.dashboard {
+    display: grid;
+    grid-template-areas:
+        "dash-header dash-header dash-header"
+        "dash-nav dash-main dash-aside"
+        "dash-footer dash-footer dash-footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.dashboard div {
+    padding: 10px;
+    color: white;
+}
+.dash-header { grid-area: dash-header; background: #3f51b5; }
+.dash-nav { grid-area: dash-nav; background: #795548; }
+.dash-aside { grid-area: dash-aside; background: #009688; }
+.dash-main { grid-area: dash-main; background: #cddc39; color: black; }
+.dash-footer { grid-area: dash-footer; background: #e91e63; }
+
+/* Task 5: Responsive Card Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
