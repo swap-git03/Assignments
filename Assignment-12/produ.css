@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.414);
+    height: 80px;
+    width: 100%;
+}
+.nav-left h2{
+    font-size: 30px;
+    margin: 20px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    gap: 20px;
+ }
+.nav-item{
+    margin: 0 10px;
+    font-size: 20px;
+}
