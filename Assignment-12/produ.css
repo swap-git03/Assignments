@@ -8,20 +8,22 @@
 body {
     background-color: #ffffff;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #2C3E50;
+}
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2C3E50;
     padding: 0 40px;
     height: 80px;
-}
-
-.nav-left h2 {
-    font-size: 26px;
     color: white;
 }
+
 
 .nav-right {
     display: flex;
@@ -124,20 +126,51 @@ body {
     margin-top: 5px;
     font-weight: bold;
 }
-.usay{
+.usay {
     display: flex;
-    text-align: center;
+    align-items: center; 
+    justify-content: flex-start; 
     background-color: white;
     border-left: 8px solid #09a3cd;
-    display: block;
     margin-top: 20px;
     margin-left: 70px;
     margin-right: 70px;
-    padding-top: 40px;
+    padding: 20px; 
+    font-size: 18px; 
 }
+
 .footer{
     background-color: black;
     padding: 40px 20px 20px;
     text-align: center;
+    color: white;
+}
+.footer-icons{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+.footer-link{
+    margin-bottom: 20px;
+}
+.footer-link a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.footer-link a:hover {
+    text-decoration: underline;
+}
+.footer-copy {
+    background-color: black;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-copy span {
+    font-weight: bold;
     color: white;
 }
