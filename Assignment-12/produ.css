@@ -1,26 +1,114 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 0 40px;
+    height: 80px;
+}
+
+.nav-left h2 {
+    font-size: 26px;
     color: white;
 }
-.navbar{
+
+.nav-right {
     display: flex;
-    background-color: rgba(0, 0, 255, 0.414);
-    height: 80px;
-    width: 100%;
+    gap: 30px;
 }
-.nav-left h2{
-    font-size: 30px;
-    margin: 20px;
+
+.nav-item {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
 }
-.nav-right{
+
+/* Hero Section */
+.hero-sec {
+    background-color: #ECF0F1;
+    padding: 60px 40px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.hero-left h3 {
+    font-size: 20px;
+    color: #2C3E50;
+    margin: 20px 0;
+}
+
+.hero-left button {
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-right img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+/* Features Section */
+.features-section {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: white;
+}
+
+.features-section h2 {
+    font-size: 32px;
+    color: #2C3E50;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-box {
+    background-color: #D4F4E7;
+    padding: 20px 30px;
+    border-left: 6px solid #16a085;
+    border-radius: 10px;
+    min-width: 180px;
     display: flex;
     align-items: center;
-    margin-left: 900px;
-    gap: 20px;
- }
-.nav-item{
-    margin: 0 10px;
-    font-size: 20px;
+    gap: 10px;
+    color: #2C3E50;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
