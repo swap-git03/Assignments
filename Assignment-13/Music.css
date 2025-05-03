@@ -130,11 +130,7 @@
     color: #ff0033;
     box-shadow: 0 0 15px white;
   }
-  .live {
-    background: linear-gradient(to right, #ff0000, #cc0000);
-    box-shadow: 0 0 15px red;
-  }
-  
+  /*  */
   /* FAQ */
   .faq-container {
     width: 60%;
