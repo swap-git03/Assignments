@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
 }
+.true{
+    background-color: #E95460;
+   color: white;
+   min-height: 60vh;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 footer{
     height: 700px;
     width: 100%;
