@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    height: 700px;
+    width: 100%;
+}
+.foo i{
+    padding: 30px;
+    font-size: 2rem;
+}
