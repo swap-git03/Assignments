@@ -6,7 +6,7 @@
 }
 img{
     height: 50px;
-    width: 50px;
+    width: 150px;
 }
 .airnav{
     width: 100%;
@@ -18,12 +18,31 @@ img{
     padding: 0 16px;
     color: white;
 }
+.nav-left{
+    /* display: flex; */
+    align-items: center;
+    /* height: 30px; */
+    width: 140px;
+    padding: 5px;
+}
+.nav-menu{
+    display: flex;
+    gap: 70px;
+}
+.nav-items{
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-right h3{
+    font-size: 20px;
+}
+
 
 .card-img-top{
     height: 350px;
     width: 100%;
 }
-/* .card{
-    height: 400px;
-    width: 80px;
-} */
