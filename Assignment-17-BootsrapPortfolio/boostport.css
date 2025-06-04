@@ -25,9 +25,13 @@
     font-size: 3rem;
     font-weight: 800;
     background: linear-gradient(to right, #4f46e5, #d946ef);
+    background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
+    display: inline-block; /* Ensure text behaves like block element */
   }
+  
   .hero-subtext {
     font-size: 1.25rem;
     color: #6c757d;
