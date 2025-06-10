@@ -7,4 +7,9 @@
         console.log('number is odd')
 
     }
-// 1. arithmatic operatins
+// 1. arithmatic operations
+
+console.log('addition is', num1 + num2);
+console.log('division is', num1 / num2);
+console.log('modulus is', num1 % num2);
+console.log('exponential is', num1 ** num2);
