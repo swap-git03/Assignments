@@ -1,4 +1,4 @@
-// inputs 
+// inputs these will be assumed everywhere;
  let num1 = prompt('enter number 1');
  let num2 = prompt('enter number 2');
 // 1. arithmatic operations
@@ -52,14 +52,19 @@ let expr4 = 20 / (2 + 3);
 console.log("expression 1 is",expr1);
 console.log("expression 2 is",expr2);
 console.log("expression 3 is",expr3);
-console.log("expression 1=4 is",expr4);
+console.log("expression 4 is",expr4);
 
 
 // 6. Combined example
 
 let perimeter = 2 * (num1+num2);
+let area = num1 * num2;
 console.log("perimeter is" ,perimeter);
+console.log("area is", area);
+console.log("is per > area", perimeter > area);
 
+
+// 7.
 // 9. Check even or odd
 
     // if (num1 % 2 ===0){
