@@ -69,12 +69,43 @@ console.log("is per > area", perimeter > area);
 let canVote = (num1 >= 18);
 console.log("can vote?",canVote);
 
-8. 
+// 8. BMI Calculator
+
+let bmi = num1 / (num2*num2);
+console.log("BMI Is", bmi);
+if (bmi < 18.5) {
+
+console.log("Category: Underweight");
+
+} else if (bmi >= 18.5 && bmi < 24.9) {
+
+console.log("Category: Normal weight");
+
+} else if (bmi >= 25 && bmi < 29.9) {
+
+console.log("Category: Overweight");
+
+} else {
+
+console.log("Category: Obesity");
+
+}
 
 // 9. Check even or odd
 
-    // if (num1 % 2 ===0){
-    //     console.log('number is even')
-    // } else {
-    //     console.log('number is odd')
-    // }
+    if (num1 % 2 ===0){
+        console.log('number is even')
+    } else {
+        console.log('number is odd')
+    }
+
+
+// 10.Discount
+
+
+if (num1 > 100) {
+
+    num1 -= num1 * 0.1; // Applying 10% discount
+
+console.log("Discounted total:", num1);
+}
