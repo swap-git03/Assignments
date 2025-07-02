@@ -22,14 +22,35 @@ console.log(isEligible);
 
 // 4, declaring X;
 
-const x = 10;
- x+=5;
+let x = 10;
+ x += 5;
 console.log(x);
+
+
+ x -= 10;
+console.log(x);
+
+ x *= 3;
+console.log(x);
+
+
+ x /= 2;
+console.log(x);
+
+
+ x %= 3;
+console.log(x);
+
+
+
+// Operator Precidence
+
+
 
 // 9. Check even or odd
 
-    if (num1 % 2 ===0){
-        console.log('number is even')
-    } else {
-        console.log('number is odd')
-    }
+    // if (num1 % 2 ===0){
+    //     console.log('number is even')
+    // } else {
+    //     console.log('number is odd')
+    // }
