@@ -64,7 +64,13 @@ console.log("area is", area);
 console.log("is per > area", perimeter > area);
 
 
-// 7.
+// 7.  voting wala problem
+
+let canVote = (num1 >= 18);
+console.log("can vote?",canVote);
+
+8. 
+
 // 9. Check even or odd
 
     // if (num1 % 2 ===0){
