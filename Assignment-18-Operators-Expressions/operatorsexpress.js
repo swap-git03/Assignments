@@ -49,13 +49,16 @@ let expr2 = (10 + 3) * 5 ;
 let expr3 = 20 / 2 + 3;
 let expr4 = 20 / (2 + 3);
 
-console.log(expr1);
-console.log(expr2);
-console.log(expr3);
-console.log(expr4);
+console.log("expression 1 is",expr1);
+console.log("expression 2 is",expr2);
+console.log("expression 3 is",expr3);
+console.log("expression 1=4 is",expr4);
 
 
+// 6. Combined example
 
+let perimeter = 2 * (num1+num2);
+console.log("perimeter is" ,perimeter);
 
 // 9. Check even or odd
 
