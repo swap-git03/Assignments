@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini JavaScript Projects</title>
+<link rel="stylesheet" href="arr.css">
+</head>
+<body>
+
+<!-- 1. To-Do List -->
+<div class="section">
+    <h2>1. To-Do List Manager</h2>
+    <input type="text" id="todoInput" placeholder="Enter task">
+    <button onclick="addTask()">Add</button>
+    <button onclick="clearTasks()">Clear All</button>
+    <ul id="todoList"></ul>
+</div>
+
+<!-- 2. Student Marks Calculator -->
+<div class="section">
+    <h2>2. Student Marks Calculator</h2>
+    <input type="number" id="marksInput" placeholder="Enter marks">
+    <button onclick="addMarks()">Add Marks</button>
+    <button onclick="calculateMarks()">Calculate</button>
+    <button onclick="resetMarks()">Reset</button>
+    <p id="marksResult"></p>
+</div>
+
+<!-- 3. Search in an Array -->
+<div class="section">
+    <h2>3. Search in an Array</h2>
+    <input type="text" id="searchInput" placeholder="Search value">
+    <button onclick="searchArray()">Search</button>
+    <p id="searchArrayDisplay"></p>
+    <p id="searchResult"></p>
+</div>
+
+<!-- 4. Filter Even and Odd Numbers -->
+<div class="section">
+    <h2>4. Filter Even and Odd Numbers</h2>
+    <input type="number" id="numberInput" placeholder="Enter number">
+    <button onclick="addNumber()">Add Number</button>
+    <button onclick="showEven()">Show Even</button>
+    <button onclick="showOdd()">Show Odd</button>
+    <button onclick="clearNumbers()">Clear</button>
+    <div class="box even" id="evenNumbers"></div>
+    <div class="box odd" id="oddNumbers"></div>
+</div>
+
+<!-- 5. Sort Names Alphabetically -->
+<div class="section">
+    <h2>5. Sort Names Alphabetically</h2>
+    <input type="text" id="nameInput" placeholder="Enter name">
+    <button onclick="addName()">Add Name</button>
+    <button onclick="sortNames()">Sort</button>
+    <button onclick="resetNames()">Reset</button>
+    <ul class="alt-row" id="namesList"></ul>
+</div>
+
+<script src="arr.js"></script>
+</body>
+</html>
