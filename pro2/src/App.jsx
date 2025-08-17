@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Greeting from "./components/Greeting";
 import GreetingClassBased from "./components/GreetingClassBased";
@@ -60,7 +61,7 @@ function App() {
       {/* <Navbar />
       <Greeting studName="SHRIHARI" marks={90} />
       <Greeting studName="Aditya" marks={90} />
-
+        hi
       <GreetingClassBased studName="SHRIHARI" />
       <GreetingClassBased studName="Aditya" />
 <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap'}}>
